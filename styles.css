@@ -1,0 +1,68 @@
+.grid-column-3-3-3 {
+  display: grid;
+  grid-template-columns: repeat(3,30%);
+}
+
+.main-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 30px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+}
+.main-title:hover {
+  font-size:100px;
+  color:orange;
+}
+
+.box {
+  background-color: DodgerBlue;
+  border-style: dashed;
+  border-width: 5px 4px 3px;
+  margin-right: 10px;
+}
+
+.box:hover {
+  transform: rotate(720deg);
+  transition: transform 4000ms
+}
+
+.box2 {
+  background-color: Limegreen;
+  border-style: dashed;
+  border-width: 5px 4px 3px;
+  margin-right: 10px;
+}
+
+.box3 {
+  background-color: Violet;
+  border-style: dashed;
+  border-width: 5px 4px 3px;
+  margin-right: 10px;
+}
+
+.image-fit-div {
+  max-height: 100%;
+  max-width: 100%;
+  
+}
+
+.image-fit-div:hover {
+  transform: rotateY(720deg);
+  transition: transform 4000ms
+}
+
+
+.wow
