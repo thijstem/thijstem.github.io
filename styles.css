@@ -22,10 +22,7 @@
                -32px 32px #f9a825,
                -36px 36px #ff5722;
 }
-.main-title:hover {
-  font-size:100px;
-  color:orange;
-}
+
 
 .box {
   background-color: DodgerBlue;
@@ -46,21 +43,11 @@
   margin-right: 10px;
 }
 
-.box2:hover {
-  transform: rotate(720deg);
-  transition: transform 4000ms
-}
-
 .box3 {
   background-color: Violet;
   border-style: dashed;
   border-width: 5px 4px 3px;
   margin-right: 10px;
-}
-
-.box3:hover {
-  transform: rotate(720deg);
-  transition: transform 4000ms
 }
 
 .image-fit-div {
@@ -70,7 +57,7 @@
 }
 
 .image-fit-div:hover {
-  transform: rotateY(720deg);
+  transform: rotate(720deg);
   transition: transform 4000ms
 }
 
